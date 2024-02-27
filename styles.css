@@ -1,0 +1,99 @@
+
+body{
+    text-align: center;
+    display: flex;
+    background-color: red;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+
+ }
+      
+
+#logo{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-bottom: 10px;
+
+}
+h1{
+  justify-content: center;
+  background-color: #FFB822;
+  font-size: 70px;
+  margin-bottom: 10PX;
+}
+
+
+#nome{
+    border-radius: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#email{
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+}
+
+
+#tel{
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+}
+
+
+.container{
+    margin-left: 220px; /* largura do menu + margem */
+
+    margin-top: 0px;
+}
+
+#sabor{
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+}
+
+#data{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+}
+.menu {
+    width: 200px;
+    height: 900px;
+    background-color: #333;
+    color: white;
+   align-items: center;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+textarea{
+    background-color: #333;
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+}
+#enviar{
+    background-color: #FFB822;
+}
